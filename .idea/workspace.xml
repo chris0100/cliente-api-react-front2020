@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0247378-235b-4967-9367-27f6577ccfba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/componentes/productos/EditarProducto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componentes/productos/NuevoProducto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componentes/productos/UnProducto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componentes/layout/Spinner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componentes/layout/Spinner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/componentes/pedidos/NuevoPedido.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/clientes/Clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/clientes/Clientes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/productos/EditarProducto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/EditarProducto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/productos/NuevoProducto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/NuevoProducto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/componentes/productos/Productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/Productos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/productos/UnProducto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/UnProducto.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -56,6 +61,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -99,7 +105,8 @@
       <updated>1593107309976</updated>
       <workItem from="1593107311469" duration="5238000" />
       <workItem from="1593121663142" duration="12228000" />
-      <workItem from="1593146475097" duration="1977000" />
+      <workItem from="1593146475097" duration="2291000" />
+      <workItem from="1593186396496" duration="8570000" />
     </task>
     <servers />
   </component>
@@ -116,28 +123,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="79" key="GridCell.Tab.0.bottom" timestamp="1593149086676">
+    <state width="1259" height="79" key="GridCell.Tab.0.bottom" timestamp="1593150805196">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.bottom/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593149086676" />
-    <state width="1259" height="79" key="GridCell.Tab.0.center" timestamp="1593149086675">
+    <state width="1259" height="79" key="GridCell.Tab.0.bottom/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593150805196" />
+    <state width="1259" height="79" key="GridCell.Tab.0.center" timestamp="1593150805195">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.center/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593149086675" />
-    <state width="1259" height="79" key="GridCell.Tab.0.left" timestamp="1593149086674">
+    <state width="1259" height="79" key="GridCell.Tab.0.center/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593150805195" />
+    <state width="1259" height="79" key="GridCell.Tab.0.left" timestamp="1593150805193">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.left/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593149086674" />
-    <state width="1259" height="79" key="GridCell.Tab.0.right" timestamp="1593149086675">
+    <state width="1259" height="79" key="GridCell.Tab.0.left/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593150805193" />
+    <state width="1259" height="79" key="GridCell.Tab.0.right" timestamp="1593150805195">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.right/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593149086675" />
+    <state width="1259" height="79" key="GridCell.Tab.0.right/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593150805195" />
     <state x="-1457" y="165" key="SettingsEditor" timestamp="1593117437826">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

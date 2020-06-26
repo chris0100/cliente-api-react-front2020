@@ -1,7 +1,8 @@
 import React, {Fragment, useEffect,useState} from "react";
 import {Link} from "react-router-dom";
-//importar cliente axios
 import clienteAxios from "../../config/axios";
+import UnProducto from "./UnProducto";
+import Spinner from "../layout/Spinner";
 
 function Productos() {
 
@@ -11,6 +12,7 @@ function Productos() {
     //useEffect para consultar API
     useEffect(
         () => {
+
             //QUERY A LA API
             const consultarAPI = async () => {
                 const productosConsulta = await clienteAxios.get('/productos');
@@ -19,7 +21,11 @@ function Productos() {
 
             //llamado a la API
             consultarAPI();
-        }, []);
+        }, [productos]); //hace que se vuelva a cargar el state de productos.
+
+
+    //Spinner de carga
+    if(!productos.length) return <Spinner/>
 
 
 
@@ -38,26 +44,12 @@ function Productos() {
             </Link>
 
             <ul className="listado-productos">
-
-                <li className="producto">
-                    <div className="info-producto">
-                        <p className="nombre">VueJS</p>
-                        <p className="precio">$25.00 </p>
-                        <img src="img/1.jpg"/>
-                    </div>
-                    <div className="acciones">
-                        <a href="#" className="btn btn-azul">
-                            <i className="fas fa-pen-alt"></i>
-                            Editar Producto
-                        </a>
-
-                        <button type="button" className="btn btn-rojo btn-eliminar">
-                            <i className="fas fa-times"></i>
-                            Eliminar Cliente
-                        </button>
-                    </div>
-                </li>
-
+                {productos.map( obj => (
+                    <UnProducto
+                        key={obj._id}
+                        obj={obj}
+                    />
+                ))}
             </ul>
 
         </Fragment>
