@@ -54,6 +54,11 @@ function UnCliente({obj, consultarAPI}) {
                     Editar Cliente
                 </Link>
 
+                <Link to={`/pedidos/nuevo/${_id}`} className="btn btn-amarillo">
+                    <i className="fas fa-plus"></i>
+                    Nuevo pedido
+                </Link>
+
                 <button type="button" className="btn btn-rojo btn-eliminar" onClick={() => eliminarCliente(_id)}>
                     <i className="fas fa-times"></i>
                     Eliminar Cliente

@@ -1,0 +1,41 @@
+import React from "react";
+
+function DetallesPedido({obj}){
+
+
+    const {cliente} = obj;
+
+
+    return (
+        <li className="pedido">
+            <div className="info-pedido">
+                <p className="id">ID: 0192019201291201</p>
+                <p className="nombre">Cliente: {cliente.nombre} {cliente.apellido}</p>
+
+                <div className="articulos-pedido">
+                    <p className="productos">Artículos Pedido: </p>
+                    <ul>
+                        {obj.pedido.map(articulos => (
+                            <li key={obj._id+articulos.producto._id}>
+                                <p>{articulos.producto.nombre}</p>
+                                <p>Precio: $ {articulos.producto.precio}</p>
+                                <p>Cantidad: {articulos.cantidad}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <p className="total">Total: $ {obj.total}  </p>
+            </div>
+
+            <div className="acciones">
+
+                <button type="button" className="btn btn-rojo btn-eliminar">
+                    <i className="fas fa-times"></i>
+                    Eliminar Pedido
+                </button>
+            </div>
+        </li>
+    )
+}
+
+export default DetallesPedido;

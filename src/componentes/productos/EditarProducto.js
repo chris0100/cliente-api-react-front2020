@@ -2,7 +2,6 @@ import React, {useState,useEffect,Fragment} from "react";
 import Swal from "sweetalert2";
 import clienteAxios from "../../config/axios";
 import {withRouter} from 'react-router-dom';
-import Spinner from "../layout/Spinner";
 
 function EditarProducto(props) {
 
@@ -134,4 +133,5 @@ function EditarProducto(props) {
     )
 }
 
-export default EditarProducto;
+//el withRouter ayuda a la redireccion
+export default withRouter(EditarProducto);
