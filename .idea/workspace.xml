@@ -20,22 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0247378-235b-4967-9367-27f6577ccfba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/componentes/auth/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componentes/pedidos/DetallesPedido.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componentes/pedidos/FormBuscarProducto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/componentes/pedidos/FormCantidadProducto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/CRMContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/clientes/Clientes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/clientes/Clientes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/clientes/NuevoCliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/clientes/NuevoCliente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/clientes/UnCliente.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/clientes/UnCliente.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/layout/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/layout/Navegacion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/layout/Navegacion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/pedidos/NuevoPedido.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/pedidos/NuevoPedido.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/pedidos/Pedidos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/pedidos/Pedidos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/auth/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/componentes/productos/EditarProducto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/EditarProducto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/componentes/productos/Productos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/Productos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/componentes/productos/UnProducto.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/componentes/productos/UnProducto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/axios.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +76,18 @@
       <recent name="C:\Users\Alexis Rodriguez\Escritorio\DATOS JAVASCRIPT\CURSO NODEJS\cliente-api\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -98,6 +100,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -113,6 +120,7 @@
       <workItem from="1593121663142" duration="12228000" />
       <workItem from="1593146475097" duration="2291000" />
       <workItem from="1593186396496" duration="24369000" />
+      <workItem from="1593273153653" duration="1819000" />
     </task>
     <servers />
   </component>
@@ -132,26 +140,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1259" height="79" key="GridCell.Tab.0.bottom" timestamp="1593233079625">
+    <state width="1259" height="79" key="GridCell.Tab.0.bottom" timestamp="1593285345393">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.bottom/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593233079625" />
-    <state width="1259" height="79" key="GridCell.Tab.0.center" timestamp="1593233079623">
+    <state width="1259" height="79" key="GridCell.Tab.0.bottom/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593285345393" />
+    <state width="1259" height="79" key="GridCell.Tab.0.center" timestamp="1593285345392">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.center/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593233079623" />
-    <state width="1259" height="79" key="GridCell.Tab.0.left" timestamp="1593233079622">
+    <state width="1259" height="79" key="GridCell.Tab.0.center/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593285345392" />
+    <state width="1259" height="79" key="GridCell.Tab.0.left" timestamp="1593285345391">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.left/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593233079622" />
-    <state width="1259" height="79" key="GridCell.Tab.0.right" timestamp="1593233079624">
+    <state width="1259" height="79" key="GridCell.Tab.0.left/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593285345391" />
+    <state width="1259" height="79" key="GridCell.Tab.0.right" timestamp="1593285345393">
       <screen x="0" y="22" width="1280" height="778" />
     </state>
     <state width="1899" height="155" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1593122244362" />
-    <state width="1259" height="79" key="GridCell.Tab.0.right/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593233079624" />
+    <state width="1259" height="79" key="GridCell.Tab.0.right/1280.22.1920.1006/0.22.1280.778@0.22.1280.778" timestamp="1593285345393" />
     <state x="-1457" y="165" key="SettingsEditor" timestamp="1593117437826">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>

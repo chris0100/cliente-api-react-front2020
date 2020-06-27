@@ -48,7 +48,7 @@ function UnProducto({obj}) {
 
                 {
                     obj.imagen ? (
-                        <img src={`http://localhost:5001/${obj.imagen}`} alt="imagen"/>
+                        <img src={`${process.env.REACT_APP_BACKEND_URL}/${obj.imagen}`} alt="imagen"/>
                     ) : null
                 }
 
